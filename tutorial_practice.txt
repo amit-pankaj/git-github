@@ -1,0 +1,98 @@
+    1  git init
+    2  clear
+    3  git remote add origin "https://github.com/amit-pankaj/git-github.git"
+    4  git pull origin master
+    5  git status
+    6  touch 1.txt
+    7  vi add.txt 
+    8  git status
+    9  mv add.txt local_1.txt
+   10  git statu
+   11  git status
+   12  git add local_1.txt
+   13  git stauts
+   14  git status
+   15  git commit -m "First commit for tutorial"
+   16  git commit -m "First commit for tutorial in local" 
+   17  git config --global user.email "amit.pankaj@hotmail.com"
+   18* git config --global user.name "
+   19  git commit -m "First commit for tutorial in local" 
+   20  vi local_2.txt 
+   21  vi local_3.txt 
+   22  git status
+   23  vi local_1.txt 
+   24  git status
+   25  git add -A
+   26  git status
+   27  commit commit -a -m "Second Commit from local along with 2 new files"
+   28  git commit -a -m "Second Commit from local along with 2 new files"
+   29  clear
+   30  git log
+   31  clear
+   32  git branch firstbranch
+   33  git status
+   34  git checkout firstbranch
+   35  ls
+   36  vi local_4.txt
+   37  git add local_4.txt 
+   38  git commit -m "Making changes in firstbranch"
+   39  git status
+   40  ls
+   41  git checkout master
+   42  ls
+   43  git merge firstbranch 
+   44  ls
+   45  git checkout firstbranch 
+   46  vi local_4.txt 
+   47  git commit local_4.txt -m "Modifying local_4.txt"
+   48  git status
+   49  git checkout master 
+   50  ls
+   51  cat local_4.txt 
+   52  git checkout firstbranch 
+   53  vi local_5.txt
+   54  vi local_6.txt
+   55  git add local_5.txt local_6.txt 
+   56  git commit -a -m "Adding local 5th and 6th fie"
+   57  ls
+   58  git checkout master 
+   59  clear
+   60  ls
+   61  git log
+   62  git checkout firstbranch 
+   63  git rebase master 
+   64  git checkout master 
+   65  git checkout firstbranch 
+   66  git checkout master 
+   67  git rebase firstbranch 
+   68  ls
+   69  git log
+   70  ssh -keygen
+   71  ssh-keygen
+   72  cat /c/Users/AmitPankaj/.ssh/id_rsa.pub
+   73  clear
+   74  ssh -T git@github.com
+   75  clear
+   76  git checkout firstbranch 
+   77  git push origin firstbranch 
+   78  git master
+   79  git checkout master 
+   80  git push origin master
+   81  history
+   82  ls
+   83  vi revert
+   84  git add revert 
+   85  git commit revert -m "Revert 1"
+   86  cat revert 
+   87  vi revert 
+   88  cat revert 
+   89  git commit -a -m "revert 2"
+   90  cat revert 
+   91  git log
+   92  git checkout 288f502c revert.txt
+   93  git checkout 288f502c revert
+   94  cat revert 
+   95  git log
+   96  !
+   97  history
+   98  history > tutorial_practice.txt
