@@ -1,0 +1,2 @@
+Sixth file
+Welcome to world of Git
